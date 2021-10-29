@@ -3,7 +3,7 @@ import cv2
 import time
 import os
 
-url = "https://www.youtube.com/watch?v=J5-4ZYnlGYo"
+url = "https://www.youtube.com/watch?v=R2iMq5LKXco"
 video = pafy.new(url)
 best = video.getbest(preftype="mp4")
 
